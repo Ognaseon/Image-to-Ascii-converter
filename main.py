@@ -50,5 +50,5 @@ class ToAscii:
     def update(self):
         self.to_ascii()
 
-img1 = ToAscii('plik.jpg', 50, 1)
+img1 = ToAscii('plik.jpg', 50)
 img1.update()
