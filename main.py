@@ -54,6 +54,6 @@ class ToAscii:
             self.to_ascii()
 
 if __name__ == '__main__':
-    img1 = ToAscii('Anime gril.jpg', 30, kind='image')
+    img1 = ToAscii("image.jpg", 30, kind='image')
     img1.update()
 
