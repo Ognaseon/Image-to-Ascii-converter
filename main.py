@@ -31,17 +31,12 @@ class ToAscii:
                     right = len(keys) - 1
                     while left < right:
                         mid = (left + right) // 2
-
                         if pixel > keys[mid][1]:
                             right = mid
-
                         else:
                             left = mid + 1
-
                     image_str += self.sample[keys[left]]
-
                 image_str += '\n'
-            
             print(image_str)
 
     def to_ascii(self):
@@ -55,8 +50,6 @@ class ToAscii:
                 frame = self.image_setup(frame)
                 self.printing_ascii(frame)
                 
-
-    
     def update(self):
             self.to_ascii()
 
